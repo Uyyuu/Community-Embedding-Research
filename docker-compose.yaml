@@ -1,11 +1,11 @@
-version: '3.8'
+version: "3.8"
 services:
   python:
     build:
       context: .
       dockerfile: ./docker/Dockerfile
     volumes:
-      - .:/ML_templete
+      - .:/CommunityEmbeddingResearch
     tty: true
     stdin_open: true
-    working_dir: /ML_templete
+    working_dir: /CommunityEmbeddingResearch
