@@ -34,6 +34,7 @@
 - .env ファイルの `COMPOSE_PROJECT_NAME` を設定する．(**大文字使わない！**)
 - `docker-compose.yaml`内のML_templeteって部分を変更する
 - `.devcontainer/devcontainer.json`の`workspaceFolder`を`docker-compose.yaml`のvolumesと統一する．
+- `.env`の`WORK_DIR`を絶対パスにする．
 
 ## 参考サイト
 
